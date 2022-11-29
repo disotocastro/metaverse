@@ -5,9 +5,6 @@ import { motion } from 'framer-motion';
 import { TypingText } from '../components';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
-import { exploreWorlds } from '../constants/index';
-
-import ExploreCard from '../components/ExploreCard';
 
 const About = () => {
   const [active, setActive] = useState('world-2');
@@ -52,3 +49,4 @@ const About = () => {
   );
 };
 export default About;
+
